@@ -28,7 +28,7 @@ const Form = () => {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
-        "form-name": "test-form",
+        "form-name": "contact",
         "who-is-receiving-this-email":
           "marketing@tacenergy.com; tperryman@thearnoldcos.com",
         "date-of-submission": moment().format("MMMM Do YYYY, h:mm a"),
